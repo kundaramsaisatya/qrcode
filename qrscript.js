@@ -8,13 +8,9 @@ function myfunction(){
         qrimg.src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+qrtext.value;
 
         imgbox.classList.add("showimg");   
-        
-
         downloadLink.href = qrimg.src;
         downloadLink.download = "qrcode.png";
-        
-
-
+    
         fetch(qrimg.src)
         .then(response => response.blob())
         .then(blob => {

@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #AF2655 ;
+}
+#btn{
+    width: 75px;
+    height: 75px;
+    font-size: 75px;
+    border: none;
+    border-radius: 5px;
+    visibility: visible;
+    background-color: #AF2655;
+    cursor: pointer;
+   
+}
+
+.hamburger{
+    background-color: #fff;
+    width: max-content;
+    height: 100vh;
+    font-size: 50px;
+    border-radius: 10px;
+
+    
+}
+#ham a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family:Arial;
+}
+
+.hamburger{
+    line-height: 150px;
+    margin: 5px 10px 10px 5px;
+    transition: all 0.01s ease;
+    visibility: hidden;
+    
+}
+
+.activeh{
+  visibility: visible;
+  background-color: #fff;
+  width: max-content;
+  height: 100vh;
+
+
+}
+#btn.activeh {
+    background-color: #fff;
+}
+
+
+
+#ham button{
+    width: 75px;
+    height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+}
+#ham button:hover{
+ background-color: #F05941;
+ border-radius: 50%;
+ box-shadow: 4px 5px 5px black;
+}
+
+

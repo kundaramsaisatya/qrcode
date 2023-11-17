@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="st.css">
+    <title>Sidebar</title>
+</head>
+<body>
+    <div class="hamburger" >
+        <button id="btn" onclick="openh()"> <i class="fa-solid fa-bars"></i></button><br>
+        <div id="ham">
+
+            <a href="http://google.com">
+                <button><i class="fa-solid fa-user"></i></button>
+            </a><br>
+
+        <a href="http://facebook.com" >
+        <button><i class="fa-solid fa-house"></i></button></i>
+    </a><br>
+
+
+          <a href="http://youtube.com" > 
+        <button><i class="fa-solid fa-bookmark"></i></button></i>
+    </a><br>
+
+        <a href="http://instagram.com" >
+        <button><i class="fa-solid fa-gear"></i></button></i>
+    </a><br>
+
+        <a href="http://yahoo.com">
+        <button><i class="fa-solid fa-right-from-bracket"></i></button></i></a>
+    </div>
+    </div>
+
+    <script>
+        let hamb=document.querySelector(".hamburger");
+        //let ham=document.querySelector("#ham");
+
+        function openh(){
+            hamb.classList.toggle("activeh");
+            document.getElementById("btn").classList.toggle("activeh");
+
+        }
+
+    </script>
+</body>
+</html>
