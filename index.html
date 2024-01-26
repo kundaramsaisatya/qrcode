@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+<main class="main">
+    <header class="header">
+        <a href="#" class="logo"> Quiz.</a>
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="quiz-section">
+            <center>
+            <div class="quiz-box">
+                <span id="questionNumber"></span>
+                <h1 class="quiz-title">QUIZZING</h1>
+                <span id="current-question">0</span>/
+                <span id="total-question">10</span>
+                
+                 <h3 id="quiz-question"><!--Question comes here!--></h3> 
+                <div class="quest-grp">
+                    <!-- Options list -->
+                </div>
+                <button class="next-btn">Next</button>
+
+            </div>
+        </center>
+
+
+
+        </section>
+
+            <section class="home">
+                <div class="home-content">
+                <h1>Quiz Website</h1>
+                <h3>Welcome to world of Quizes</h3>
+                <h3>Click on Start Quiz!</h3>
+                <center>
+                <button class="btn-start">Start Quiz</button></center>
+                </div>
+            </section>
+    </div>
+</main>
+ <div class="pop-info">
+    <h2>Quiz Guide</h2>
+    <span class="info">1. Answer each question to the best of your ability.</span>
+    <span class="info">2. Review your answers before submitting.</span>
+    <span class="info">3. Enjoy the quiz and have fun learning!</span>
+    <span class="info">4. Try to complete the quiz.</span> <br>
+    <span class="info">5. Good luck!</span>
+    <div class="btn-group">
+        <button class="info-btn ext-btn">Exit</button>
+        <a href="#" class="info-btn cont-btn">Continue</a>
+    </div>
+</div> 
+<div class="scoreCard">
+    <h2>Score Card!</h2>
+    <h3 id="myScore"></h3>
+    <div class="btn-group">
+        <button class="info-btn home-btn">Home</button>
+        <a href="#" class="info-btn try-btn">Try Again</a>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
