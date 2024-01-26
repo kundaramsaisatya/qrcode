@@ -316,7 +316,7 @@ body{
     .home-content h1{
         padding-top: 200%;
         width:200%;
-        font-size: 100px;
+        font-size: 110px;
         font-weight: 70;
     }
     .home-content h3{
@@ -330,7 +330,7 @@ body{
         width: 400px;
         height: 200px;
         border-radius: 20px;
-        margin-left: 100px;
+        margin-left: 95px;
     }
     .quiz-section{
         position: relative;
@@ -359,19 +359,20 @@ body{
     }
     .quiz-box{
         margin-top: 75%;
-        margin-right: 20%;
+        margin-right: -4%;
         height: 700px;
         width: 500px;
+        transform: translate(-50%,-50%) scale(3);
     
     }
     .quiz-title{
         display: inline;
-        padding-right: 150px;
+        padding: 15px;
         font-size: 40px;
     }
     
     #questionNumber{
-        padding-right: 120px;
+        padding-right: 0px;
     }
     .quiz-box span{
         font-size: 25px;
@@ -394,6 +395,14 @@ body{
         width: 100px;
         height: 50px;
         font-size: 30px;
+        margin-top: 10%;
+    }
+    .pop-info{
+        top:200%;
+        left:208%;
+    }
+    .pop-info.active{
+        transform: translate(-50%,-50%) scale(3);
     }
 }
 /* need to do more changes */
