@@ -52,7 +52,7 @@ body{
     background: url('background.jpg') no-repeat;
     background-size:cover;
     background-position: fixed;
-    transition: .3s ease;
+    transition: .4s ease;
     pointer-events: auto;
 }
 
