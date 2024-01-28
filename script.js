@@ -68,14 +68,14 @@ const _totalQuestion=document.getElementById('total-question');
 const questionNumber=document.getElementById('questionNumber');
 let correctAnswer="";
 let correctScore=0;
-const maxCount=10
+const maxCount=5
 let questionCount=0;
 _totalQuestion.innerHTML=maxCount;
 
 document.addEventListener('DOMContentLoaded',()=>{
     loadQuestion();
     _totalQuestion.textContent=maxCount;
-    _correctScore.textContent="score: "+correctScore;
+    _correctScore.textContent=correctScore;
 
 })
 

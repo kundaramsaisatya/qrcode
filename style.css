@@ -398,11 +398,11 @@ body{
         font-size: 30px;
         margin-top: 10%;
     }
-    .pop-info{
+    .pop-info,.scoreCard{
         top:200%;
         left:208%;
     }
-    .pop-info.active{
+    .pop-info.active,.scoreCard.active{
         transform: translate(-50%,-50%) scale(3);
     }
     h3{
