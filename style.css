@@ -398,9 +398,13 @@ body{
         font-size: 30px;
         margin-top: 10%;
     }
-    .pop-info,.scoreCard{
+    .pop-info{
         top:200%;
         left:208%;
+    }
+    .scoreCard{
+        top:200%;
+        left:200%;
     }
     .pop-info.active,.scoreCard.active{
         transform: translate(-50%,-50%) scale(3);

@@ -68,7 +68,7 @@ const _totalQuestion=document.getElementById('total-question');
 const questionNumber=document.getElementById('questionNumber');
 let correctAnswer="";
 let correctScore=0;
-const maxCount=5
+const maxCount=5;
 let questionCount=0;
 _totalQuestion.innerHTML=maxCount;
 
